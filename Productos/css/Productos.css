@@ -13,8 +13,101 @@ body {
 	margin: 0;
 }
 /*-----------------Header------------------------->*/
+header{
+	background-color: #3b3b3b;
+	padding: 5px;
+}
 .img-logo{
-	height: 9rem;
-	margin-top: 30px;
-	margin-left: 70px;	
+	max-width: 1000px;
+	margin-top: 3px;
+	margin-left: 87px;
+	width: 14%;
+	height: 5.12rem;
+}
+.navegacion{
+	max-width: 1000px;
+	float: right;
+	margin-top: 18px;
+	margin-right: 61px;
+}
+.navegacion a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 36px;
+	font-size: 1.6rem;
+}
+.navegacion a:hover {
+	padding:7px;
+	border: 1px solid #fff;
+}
+/*-----------------option------------------------->*/
+.categorias{
+	max-width: 1000px;
+	float: right;
+}
+.categorias li{
+	font-size: 1.5rem;
+	margin-top: -14px;
+	margin-right: 234px;
+}
+.categorias li a{
+	text-decoration: none;
+	color: #000;
+}
+.categorias li a:hover .sub-menu{
+	display: block;
+}
+.sub-menu li{
+	display: none;
+	position: relative;
+	: none;
+}
+.option hr{
+	max-width: 957px;
+	margin-top: 38px;
+}
+/* Lista de productos de jardin*/
+
+.productos h2, p{
+	margin-left: 296px;
+	max-width: 1000px;
+}
+.productos p{
+	font-size: 1.7rem;
+	width: 28%;
+	color: #797A7E;
+}
+.productos h2{
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.productos hr{
+	margin-top: 69px;
+}
+.productos .jardin{
+	float: right;
+	width: 22%;
+	height: 198px;
+	margin-top: -146px;
+	margin-right: 329px;
+}
+.productos .bloom{
+	margin-top: -17rem;
+	height: 219px;
+}
+.productos .oco{
+	height: 202px;
+	margin-top: -149px;
+}
+.productos .oco:hover{
+ 
+}
+.productos .button{
+	margin-left: 401px;
+	font-size: 1.6rem;
+	background-color: #cae2e6;
+	border: 1px solid #8AB8B4;
+	text-decoration: none;
+	color: #000;
+	padding: 12px 20px;
 }
