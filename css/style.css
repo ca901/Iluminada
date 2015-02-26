@@ -1,0 +1,481 @@
+/* Index  */
+
+
+/* Globals Html */
+
+html {
+
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+*, *:before, *:after {
+
+  box-sizing: inherit;
+}
+
+body {
+
+	padding: 0;
+	margin: 0;
+}
+
+/* ///////////////////////   Header   /////////////////////// */
+
+.header {
+	width: 100%;
+	background:url(../img/iluminada.jpg) no-repeat center center;
+	background-size: cover; 
+	height: 65rem;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+
+}
+
+.logo img {
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 150px;
+
+}
+
+.overlay {
+	height: 103px;
+	background-color: rgba(10,10,12,0.8);
+
+
+
+}
+
+.header nav {
+
+	overflow: hidden;
+	float: right;
+	margin-right: 52px;
+	margin-top: -9px;
+
+}
+ 
+.header nav ul {
+	list-style: none;
+	margin: 0;
+	
+	
+}
+ 
+.header nav ul li {
+	float: left;
+	padding: 2rem;
+	font-size: 2rem;
+	font-size: 20px;
+}
+ 
+.header nav ul li a {
+	display: block;
+	padding:28px;
+	color:#fff;
+	text-decoration: none;
+}
+
+.header nav ul li a:hover {
+	color:#F7F0D5;
+	border: 1px solid #fff;
+}
+
+
+/*       /////////////////     Container        //////////////////////////          */
+
+
+/* ////////////////////////////////  Categoria   //////////////////////////////////*/
+
+
+.categoria {
+	height: 40rem;
+
+}
+
+
+
+
+.title-categoria {
+	text-align: center; 
+	font-size: 3rem;
+	font-size: 30px;
+	color: #fff;
+	border: 1px solid #d1e9ed;
+	background-color: rgb(34,32,31); 
+	overflow: hidden;
+}
+
+.title-categoria h1 {
+	margin-top: 28px;
+}
+
+article img {
+height: 30rem;
+width: 49.94rem;
+
+}
+
+.top{
+	width: 100%;
+}
+
+.bottom{
+	width: 100%;
+}
+.jardin { 
+	background: url(../img/Garden.jpg) no-repeat;
+	background-size: cover;
+	float: left;
+	height: 30rem;
+	width: 40%;
+	
+
+}
+
+.piscina {
+	background: url(../img/piscina.jpg) no-repeat;
+	background-size: cover;
+	float: left;
+	height: 30rem;
+	width: 40%;
+	
+
+}
+
+.fiestas {
+	background: url(../img/fiestas.jpg) no-repeat;
+	background-size: cover;
+	height: 30rem;
+	width: 30%;
+	
+}
+
+.cuarto {
+	background: url(../img/casa.jpg) no-repeat;
+	background-size: cover;
+	height: 30rem;
+	width: 30%;
+	
+}
+
+.oficina {
+	background: url(../img/oficina.jpg) no-repeat;
+	background-size: cover;
+	height: 30rem;
+	width: 30%;
+	
+}
+
+.casa {
+	background: url(../img/luces.jpg) no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 30%;
+}
+
+.flotar {
+	float: left;
+
+}
+
+hr {
+	width: 59%;
+	float: left;
+	border: 2px solid #D1E9ED;
+}
+
+.categoria h2,h3 {
+	font-size: 2.5rem;
+	font-size: 25px;
+	color: #fff;
+	margin-top: 223px;
+	float: left;
+	margin-left: 47px;
+}
+
+
+
+
+article .overlay-dos{
+	background-color: rgba(10,10,12,0.6);
+	height: 300px;  
+	display: none;
+
+}
+
+article .overlay-dos a{
+	text-decoration: none;
+	color: #D1E9ED;
+}
+
+article:hover .overlay-dos{
+	display: block;
+}
+
+article:hover h3{
+	display: none;
+}
+
+
+article:hover hr{
+	display: none;
+}
+
+
+
+/* ///////////////////////   proyecto  //////////////////////////////////////////////////////   */
+
+
+
+.proyecto{
+	width: 100%;
+	height: 740px;
+	overflow: hidden;
+
+}
+
+.elegir-proyecto{
+	
+	width: 100%;
+	margin-left: 11px;
+}
+
+.proyecto-1{
+	
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 214px;
+	width: 24%;
+}
+
+.proyecto-1 aside{
+	background: url(../img/eventopalcioloir.jpg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	max-width: 100%;
+	
+
+}
+
+.proyecto-1 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.proyecto-1 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+.proyecto-2{
+	width: 16%;
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 51px;
+}
+
+.proyecto-2 aside{
+	background: url(../img/hospital-moncorvo.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	
+}
+
+.proyecto-2 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.proyecto-2 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+.proyecto-2 button{
+	margin-top: 42px;
+	margin-left: 177px;
+	background-color: #D1E9ED;
+	height: 44px;
+	width: 110px;
+	font-size: 1.6rem;
+	font-size: 16px;
+	border: 1px solid #91BFBB;
+}
+
+.proyecto-2 button:hover{
+	background-color: #000;
+	color:  #D1E9ED;
+}
+
+.proyecto-3{
+	width: 23%;
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 213px;
+}
+
+.proyecto-3 aside{
+	background: url(../img/salonboda.jpg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	max-width: 100%;
+	
+}
+
+.proyecto-3 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.proyecto-3 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+
+/*         ///////////////////// Noticias ////////////////////////////       */
+
+.noticias{
+	width: 100%;
+	height: 740px;
+	overflow: hidden;
+}
+
+.noticia-1{
+	
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 214px;
+	width: 24%;
+}
+
+.noticia-1 aside{
+	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	max-width: 100%;
+	
+
+}
+
+.noticia-1 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.noticia-1 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+.noticia-2{
+	width: 16%;
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 51px;
+
+}
+
+.noticia-2 aside{
+	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	
+	
+	
+}
+
+.noticia-2 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.noticia-2 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+.noticia-2 button{
+	margin-top: 42px;
+	margin-left: 184px;
+	background-color: #D1E9ED;
+	height: 44px;
+	width: 110px;
+	font-size: 1.6rem;
+	font-size: 16px;
+	border: 1px solid #91BFBB;
+}
+
+.noticia-3{
+	width: 23%;
+	height: 140px;
+	margin-top: 79px;
+	float: left;
+	margin-left: 213px;
+}
+
+.noticia-3 aside{
+	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background-size: cover;
+	height: 292px;
+	width: 450px;
+	max-width: 100%;
+	
+	
+}
+
+.noticia-3 h2{
+	font-size: 2rem;
+	font-size: 20px;
+}
+
+.noticia-3 p{
+	font-size: 1.5rem;
+	font-size: 15px;
+	width: 470px;
+}
+
+article .noti-a{
+	background-color: rgba(10,10,12,0.6);
+	height: 292px;
+	width: 100%;
+	float: left;
+	display: none;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+	font-size: 20px;
+	padding: 130px;
+	text-decoration: none;
+}
+
+article:hover .noti-a{
+	display: block;
+}
+
+
+
+
+
+
+
