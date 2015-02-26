@@ -110,6 +110,7 @@ hr{
 	padding: 12px 20px;
 }
 .ver_producto{
+	display: none;
 	float: right;
 	margin-right: -296px;
 	color: #CEE6EA;
@@ -119,6 +120,9 @@ hr{
 	background-color: rgba(0,0,0,0.8);
 	padding: 8px 115px 8px 116px;
 }
+.jardin:hover .ver_producto{
+	display: block;
+}  
 .light{
 	margin-bottom: 60px;
 }
