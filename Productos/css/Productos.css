@@ -12,7 +12,6 @@ body {
 	padding: 0;
 	margin: 0;
 }
-/*-----------------Header------------------------->*/
 header{
 	background-color: #3b3b3b;
 	padding: 5px;
@@ -20,7 +19,7 @@ header{
 .img-logo{
 	max-width: 1000px;
 	margin-top: 3px;
-	margin-left: 87px;
+	margin-left: 180px;
 	width: 14%;
 	height: 5.12rem;
 }
@@ -28,19 +27,20 @@ header{
 	max-width: 1000px;
 	float: right;
 	margin-top: 18px;
-	margin-right: 61px;
+	margin-right: 165px;
 }
 .navegacion a{
 	text-decoration: none;
 	color: #fff;
 	margin-right: 36px;
 	font-size: 1.6rem;
+	padding:7px;
 }
 .navegacion a:hover {
-	padding:7px;
 	border: 1px solid #fff;
 }
-/*-----------------option------------------------->*/
+/*-------------------------Productos-----------------------*/
+/*option*/
 .categorias{
 	max-width: 1000px;
 	float: right;
@@ -49,20 +49,21 @@ header{
 	font-size: 1.5rem;
 	margin-top: -14px;
 	margin-right: 234px;
+	list-style: none;
+}
+.categorias:hover{
+	display: block;
+	position: absolute;
+}
+.sub-menu li{
+	display: none;
+	position: relative;
 }
 .categorias li a{
 	text-decoration: none;
 	color: #000;
 }
-.categorias li a:hover .sub-menu{
-	display: block;
-}
-.sub-menu li{
-	display: none;
-	position: relative;
-	: none;
-}
-.option hr{
+hr{
 	max-width: 957px;
 	margin-top: 38px;
 }
@@ -99,9 +100,6 @@ header{
 	height: 202px;
 	margin-top: -149px;
 }
-.productos .oco:hover{
- 
-}
 .productos .button{
 	margin-left: 401px;
 	font-size: 1.6rem;
@@ -111,3 +109,20 @@ header{
 	color: #000;
 	padding: 12px 20px;
 }
+.ver_producto{
+	float: right;
+	margin-right: -296px;
+	color: #CEE6EA;
+	font-size: 1.8rem;
+	text-decoration: none;
+	margin-top: 14px;
+	background-color: rgba(0,0,0,0.8);
+	padding: 8px 115px 8px 116px;
+}
+.light{
+	margin-bottom: 60px;
+}
+/*Falta hacer hover en ver mas y el menu de categorias*/
+
+/*--------------------Productos pagina 2-----------------------------*/
+
