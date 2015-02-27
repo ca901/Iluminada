@@ -4,7 +4,6 @@
 /* Globals Html */
 
 html {
-
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: Arial, Verdana, sans-serif;
@@ -13,18 +12,46 @@ html {
 
   box-sizing: inherit;
 }
-
 body {
-
 	padding: 0;
 	margin: 0;
 }
+header{
+	background-color: #3b3b3b;
+	padding: 5px;
+}
+.img-logo{
+	max-width: 1000px;
+	margin-top: 3px;
+	margin-left: 180px;
+	width: 14%;
+	height: 5.12rem;
+}
+.navegacion{
+	max-width: 1000px;
+	float: right;
+	margin-top: 18px;
+	margin-right: 165px;
+}
+.navegacion a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 36px;
+	font-size: 1.6rem;
+	padding: 25px;
+	border: 1px solid #3b3b3b;
+}
 
-/* ///////////////////////   Header   /////////////////////// */
+.navegacion a:hover {
+	border: 1px solid #fff;
+}
+
+
+/* ///////////////////////   Header   ///////////////////////  CARLOS*/ 
 
 .header {
 	width: 100%;
-	background:url(../img/iluminada.jpg) no-repeat center center;
+	background:url(../img/inicio/iluminada.jpg) no-repeat center center;
 	background-size: cover; 
 	height: 65rem;
 	overflow: hidden;
@@ -39,6 +66,7 @@ body {
 	height: 80px;
 	margin-top: 10px;
 	margin-left: 150px;
+	width: 34%;
 
 }
 
@@ -128,7 +156,7 @@ width: 49.94rem;
 	width: 100%;
 }
 .jardin { 
-	background: url(../img/Garden.jpg) no-repeat;
+	background: url(../img/inicio/Garden.jpg) no-repeat;
 	background-size: cover;
 	float: left;
 	height: 30rem;
@@ -138,7 +166,7 @@ width: 49.94rem;
 }
 
 .piscina {
-	background: url(../img/piscina.jpg) no-repeat;
+	background: url(../img/inicio/piscina.jpg) no-repeat;
 	background-size: cover;
 	float: left;
 	height: 30rem;
@@ -148,7 +176,7 @@ width: 49.94rem;
 }
 
 .fiestas {
-	background: url(../img/fiestas.jpg) no-repeat;
+	background: url(../img/inicio/fiestas.jpg) no-repeat;
 	background-size: cover;
 	height: 30rem;
 	width: 30%;
@@ -156,7 +184,7 @@ width: 49.94rem;
 }
 
 .cuarto {
-	background: url(../img/casa.jpg) no-repeat;
+	background: url(../img/inicio/casa.jpg) no-repeat;
 	background-size: cover;
 	height: 30rem;
 	width: 30%;
@@ -164,7 +192,7 @@ width: 49.94rem;
 }
 
 .oficina {
-	background: url(../img/oficina.jpg) no-repeat;
+	background: url(../img/inicio/oficina.jpg) no-repeat;
 	background-size: cover;
 	height: 30rem;
 	width: 30%;
@@ -172,7 +200,7 @@ width: 49.94rem;
 }
 
 .casa {
-	background: url(../img/luces.jpg) no-repeat;
+	background: url(../img/inicio/luces.jpg) no-repeat;
 	background-size: cover;
 	height: 300px;
 	width: 30%;
@@ -183,7 +211,7 @@ width: 49.94rem;
 
 }
 
-hr {
+.hr {
 	width: 59%;
 	float: left;
 	border: 2px solid #D1E9ED;
@@ -222,7 +250,7 @@ article:hover h3{
 }
 
 
-article:hover hr{
+article:hover .hr{
 	display: none;
 }
 
@@ -255,7 +283,7 @@ article:hover hr{
 }
 
 .proyecto-1 aside{
-	background: url(../img/eventopalcioloir.jpg) no-repeat center center;
+	background: url(../img/inicio/eventopalcioloir.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -269,10 +297,13 @@ article:hover hr{
 	font-size: 20px;
 }
 
-.proyecto-1 p{
+.proyecto-1  p{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
+
+
 }
 
 .proyecto-2{
@@ -284,7 +315,7 @@ article:hover hr{
 }
 
 .proyecto-2 aside{
-	background: url(../img/hospital-moncorvo.jpeg) no-repeat center center;
+	background: url(../img/inicio/hospital-moncorvo.jpeg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -300,6 +331,7 @@ article:hover hr{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
 }
 
 .proyecto-2 button{
@@ -327,7 +359,7 @@ article:hover hr{
 }
 
 .proyecto-3 aside{
-	background: url(../img/salonboda.jpg) no-repeat center center;
+	background: url(../img/inicio/salonboda.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -344,6 +376,7 @@ article:hover hr{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
 }
 
 
@@ -365,7 +398,7 @@ article:hover hr{
 }
 
 .noticia-1 aside{
-	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -383,6 +416,7 @@ article:hover hr{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
 }
 
 .noticia-2{
@@ -392,10 +426,11 @@ article:hover hr{
 	float: left;
 	margin-left: 51px;
 
+
 }
 
 .noticia-2 aside{
-	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -413,6 +448,7 @@ article:hover hr{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
 }
 
 .noticia-2 button{
@@ -435,7 +471,7 @@ article:hover hr{
 }
 
 .noticia-3 aside{
-	background: url(../img/Gallowglassmontajeluces.jpg) no-repeat center center;
+	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
 	width: 450px;
@@ -453,6 +489,7 @@ article:hover hr{
 	font-size: 1.5rem;
 	font-size: 15px;
 	width: 470px;
+	margin-left: 1px;
 }
 
 article .noti-a{
@@ -467,11 +504,493 @@ article .noti-a{
 	font-size: 20px;
 	padding: 130px;
 	text-decoration: none;
+	
 }
 
 article:hover .noti-a{
 	display: block;
+	transition: all 1s ease;
+
 }
+
+ 
+/*///////////////////////////////////////         Contacto //////////////////////////////////////////////////////////////////////*/
+
+
+.contacto {
+	width: 100%;
+	height: 600px;
+	background: url(../img/inicio/Iluminacion.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.contacto .overlay-inicio{
+	background-color: rgba(10,10,12,0.2);
+	height: 481px;
+}
+
+
+.contacto form{
+	float: left;
+	margin-left: 340px;
+	margin-top: 60px;
+}
+
+
+.contacto input, textarea{
+  background-color: #fff;
+  border-radius: 3px;
+  border: inset;
+  opacity: 0.6;
+  color: #000;
+
+  margin-top: 12px;
+}
+input:focus {
+  text-decoration: none;
+}
+
+.text{
+	width: 169px;
+	height: 40px;
+	margin-left: 2px;
+	margin-top: 12px;
+}
+
+.enviar-inicio{
+	margin-top: 17px;
+	margin-left: 81px;
+	background-color: #D1E9ED;
+	height: 44px;
+	width: 110px;
+	font-size: 1.6rem;
+	font-size: 16px;
+	border: 1px solid #91BFBB;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------Productos-----------------------     KIMBERLY*/
+/*option*/
+.categorias{
+	max-width: 1000px;
+	float: right;
+}
+.categorias li{
+	font-size: 1.5rem;
+	margin-top: -14px;
+	margin-right: 234px;
+	list-style: none;
+}
+.categorias:hover{
+	display: block;
+	position: absolute;
+}
+.sub-menu li{
+	display: none;
+	position: relative;
+}
+.categorias li a{
+	text-decoration: none;
+	color: #000;
+}
+hr{
+	max-width: 957px;
+	margin-top: 38px;
+}
+/* Lista de productos de jardin*/
+
+.productos h2, p{
+
+	max-width: 1000px;
+	margin-left: 296px;
+}
+.productos p{
+	font-size: 1.7rem;
+	width: 28%;
+	color: #797A7E;
+}
+.productos h2{
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.productos hr{
+	margin-top: 69px;
+}
+.productos .jardin{
+	float: right;
+	width: 22%;
+	height: 198px;
+	margin-top: -146px;
+	margin-right: 329px;
+}
+.productos .bloom{
+	margin-top: -17rem;
+	height: 219px;
+}
+.productos .oco{
+	height: 202px;
+	margin-top: -149px;
+}
+.productos .button{
+	margin-left: 401px;
+	font-size: 1.6rem;
+	background-color: #cae2e6;
+	border: 1px solid #8AB8B4;
+	text-decoration: none;
+	color: #000;
+	padding: 12px 20px;
+}
+.ver_producto{
+	display: none;
+	float: right;
+	margin-right: -296px;
+	color: #CEE6EA;
+	font-size: 1.8rem;
+	text-decoration: none;
+	margin-top: 14px;
+	background-color: rgba(0,0,0,0.8);
+	padding: 8px 115px 8px 116px;
+}
+.jardin:hover .ver_producto{
+	display: block;
+}  
+.light{
+	margin-bottom: 60px;
+}
+/*Falta hacer hover en ver mas y el menu de categorias*/
+
+/*--------------------Productos pagina 2-----------------------------*/
+
+
+
+/* ====================== Proyectos========================= GINNA */
+
+/* ======================== imagenes proyecto =================*/
+
+.imagenes-proyecto {
+	height: 800px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.imagenes-proyecto h2 {
+	text-align: center;
+	font-size: 15px;
+	color: #000;
+}
+
+.imagenes-proyecto h1 {
+
+	text-align: center;
+	font-size: 30px;
+}
+
+.izquierda .img-1 {
+
+	background: url(../img/proyecto/casadelparque.jpg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+	
+}
+
+.img-1 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+}
+
+.img-1:hover span{
+	display: block;
+}
+
+.img-1 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+
+}
+
+.izquierda .img-2 {
+
+	background: url(../img/proyecto/hospital-moncorvo.jpeg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+	
+}
+
+.img-2 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+}
+
+.img-2:hover span{
+	display: block;
+}
+
+.img-2 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+}
+
+.izquierda .img-3 {
+
+	background: url(../img/proyecto/restaurante_noche.jpg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+}
+
+.img-3 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+}
+
+.img-3:hover span{
+	display: block;
+}
+
+.img-3 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+}
+.izquierda h2 {
+    color: #000;
+    margin-top: 47px;
+
+}
+
+.izquierda {
+	float: left;
+    width: 45%;
+    margin-top: 40px;
+}
+
+.derecha {
+	float: right;
+	width: 45%;
+	margin-top: 40px;
+
+}
+
+.derecha h2 {
+  color: #000;
+  margin-top: 47px;
+}
+
+.derecha .img-4 {
+	background: url(../img/proyecto/salonboda.jpg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+}
+
+.img-4 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+}
+
+.img-4:hover span{
+	display: block;
+}
+
+.img-4 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+}
+
+.derecha .img-5 {
+	background: url(../img/proyecto/eventopalcioloir.jpg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+}
+
+.img-5 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+}
+
+.img-5:hover span{
+	display: block;
+}
+
+.img-5 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+}
+
+.derecha .img-6 {
+	background: url(../img/proyecto/lounge-bares.jpg) no-repeat;
+	background-size: cover;
+	height: 237px;
+	margin-top: 18px;
+}
+
+.img-6 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 237px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+}
+
+.img-6:hover span{
+	display: block;
+}
+
+.img-6 a{
+   color: #91BFBB;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+   padding: 50px;
+
+}
+
+/* ======================== footer =================*/
+
+
+.indicador {
+	margin-top: 400px;
+	text-align: center;
+}
+
+.indicador ul li {
+  
+  display: inline-block;
+
+}
+.indicador li a {
+	color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+
+}
+
+.indicador ul li:hover {
+   border: 1px solid #000;
+
+}
+
+/* ////////////////////////////// Proyecto Unico ///////////////////////////////////// CARLOS    ////////////*/
+
+
+.proyecto-uno {
+
+	width: 100%;
+	height:1010px;
+	overflow: hidden;
+}
+
+.title-principal-proyecto {
+
+	text-align: center;
+	margin-top: 140px;
+	font-size: 3.5rem;
+	font-size: 35px;
+	height: 110px;
+
+}
+
+.img-proyecto-uno{
+
+	background: url(../img/proyecto/casadelparque.jpg) no-repeat center center;
+	height: 400px;
+	width: 100%;
+
+}
+
+.text-proyexto-uno{
+
+	font-size: 2rem;
+	font-size: 20px;
+	width: 83rem;
+	margin-left: 538px;
+	margin-top: 49px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
 
 
 
