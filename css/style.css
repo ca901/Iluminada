@@ -66,16 +66,17 @@ a{
 
 /* ///////////////////////   Header   ///////////////////////  CARLOS*/ 
 
-.header {
+.img-header{
+	float: left;
 	width: 100%;
 	background:url(../img/inicio/iluminada.jpg) no-repeat center center;
 	background-size: cover; 
-	height: 65rem;
-	overflow: hidden;
+	height: 52rem;
 }
-
+/* ///////////////////////   Header   ///////////////////////  CARLOS Cambioooooooooooooooo!!!!!!!
 .logo {
 	float: left;
+	max-width: 1000px;
 
 }
 
@@ -95,18 +96,21 @@ a{
 
 }
 
-.header nav {
 
+.header nav {
 	overflow: hidden;
 	float: right;
 	margin-right: 52px;
 	margin-top: -9px;
+	margin: 0 auto;
+	max-width: 1000px;
 
 }
  
 .header nav ul {
 	list-style: none;
 	margin: 0;
+	min-width: 1000px;
 	
 	
 }
@@ -129,7 +133,7 @@ a{
 	color:#F7F0D5;
 	border: 1px solid #fff;
 }
-
+*/
 
 /*       /////////////////     Container        //////////////////////////          */
 
@@ -521,6 +525,7 @@ article:hover .noti-a{
 
 }
 
+
 /*-------------------------Productos-----------------------     KIMBERLY*/
 /*option*/
 .categorias{
@@ -864,6 +869,8 @@ article:hover .noti-a{
 
 }
 
+
+
 .izquierda .img-2 {
 
 	background: url(../img/proyecto/hospital-moncorvo.jpeg) no-repeat;
@@ -873,7 +880,17 @@ article:hover .noti-a{
 	
 }
 
-.img-2 span { 
+.breadcrumb {
+	list-style: none;
+}
+
+.breadcrumb li a {
+	font-size: 1.5rem;
+	font-size: 15px;
+	
+}
+
+.img-2 span {
 	background-color: rgba(10,10,12,0.6);
 	height: 237px;
 	width: 100%;
@@ -883,6 +900,7 @@ article:hover .noti-a{
 	text-align: center;
 	padding: 81px;
 	display: none;
+	letter-spacing: 1.5px;
 }
 
 .img-2:hover span{
@@ -916,6 +934,7 @@ article:hover .noti-a{
 	text-align: center;
 	padding: 81px;
 	display: none;
+	letter-spacing: 1.5px;
 }
 
 .img-3:hover span{
@@ -971,6 +990,7 @@ article:hover .noti-a{
 	text-align: center;
 	padding: 81px;
 	display: none;
+	letter-spacing: 1.5px;
 }
 
 .img-4:hover span{
@@ -1003,6 +1023,7 @@ article:hover .noti-a{
 	text-align: center;
 	padding: 81px;
 	display: none;
+	letter-spacing: 1.5px;
 }
 
 .img-5:hover span{
@@ -1035,6 +1056,7 @@ article:hover .noti-a{
 	text-align: center;
 	padding: 81px;
 	display: none;
+	letter-spacing: 1.5px;
 }
 
 .img-6:hover span{
@@ -1076,57 +1098,237 @@ article:hover .noti-a{
 
 }
 
-/* ////////////////////////////// Proyecto Unico ///////////////////////////////////// CARLOS    ////////////*/
-
-
-.proyecto-uno {
-
-	width: 100%;
-	height:1010px;
-	overflow: hidden;
-}
+/* ////////////////////////////// Proyecto Unico ///////////////////////////////////////////*/
 
 .title-principal-proyecto {
 
 	text-align: center;
-	margin-top: 140px;
-	font-size: 3.5rem;
-	font-size: 35px;
-	height: 110px;
+  margin-top: 110px;
+  font-size: 3.5rem;
+  font-size: 35px;
+  height: 75px;
 
 }
 
 .img-proyecto-uno{
 
-	background: url(../img/proyecto/casadelparque.jpg) no-repeat center center;
+	background: url(../img/proyecto/salonboda.jpg) no-repeat center center;
 	height: 400px;
 	width: 100%;
+	float: left;
+  margin-top: 86px;
 
 }
 
-.text-proyexto-uno{
-
+.text-proyecto-uno-izquierda{
 	font-size: 2rem;
-	font-size: 20px;
-	width: 83rem;
-	margin-left: 538px;
-	margin-top: 49px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  width: 40%;
+  margin-left: 43px;
+  margin-top: 49px;
+  float: left;
+
+}
+
+.text-proyecto-uno-derecha{
+	font-size: 2rem;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 49px;
+  float: right;
+}
+
+.container-proyecto-unico-primero{
+  width: 100%;
+  height: 1515px;
+  margin-top: -42px;
+
+
+}
+
+.proyecto-uno {
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.otros-proyectos{
+	width: 100%;
+	height: 40rem;
 	float: left;
 }
 
+.proyecto-dos{
+
+	background: url(../img/proyecto/restaurante_noche.jpg) no-repeat center center;
+	background-size: cover;
+width: 27%;
+height: 250px;
+float: left;
+margin-left: 59px;
+
+
+}
+.imagen{
+	margin-right: 38px;
+
+}
+
+.proyecto-tres {
+  background: url(../img/proyecto/casadelparque.jpg) no-repeat center center;
+  background-size: cover;
+  width: 27%;
+	height: 250px;
+	float: left;
+}
+
+.proyecto-cuatro {
+  background: url(../img/proyecto/lounge-bares.jpg) no-repeat center center;
+  background-size: cover;
+  width: 27%;
+	height: 250px;
+	float: left;
+}
+
+.title-otros-proyectos {
+	color: #000;
+ float: none;
+ text-align: center;
+ height: 100px;
+ margin-top: 50px;
+}
+
+.proyecto-unico span a {
+	font-size: 2rem;
+	font-size: 20px;
+	color: #D1E9ED;
+}
+
+.proyecto-unico span {
+
+	background-color: rgba(10,10,12,0.6);
+	height: 251px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+}
+
+.proyecto-unico:hover span{
+	display: block;
+}
+
+.img-proyecto-uno img {
+
+	max-width: 1000%;
+	margin: 0 auto;
+	width: 900px;
+	height: 399px;
+	margin-left: 50px;
+	display: none;
+
+}
+
+.img-proyecto-uno:hover img {
+	display: inline-block;
+}
+
+.breadcrumb-proyecto-unico-boda {
+	list-style: none;
+	margin-top: 70px;
+	font-size: 1.5rem;
+	font-size: 15px;
+}
+
+/* ////////////////////////////// Segundo proyecto ///////////////////////////////////////////*/
+
+.img-proyecto-dos {
+    background: url(../img/proyecto/casadelparque.jpg) no-repeat center center;
+    background-size: cover;
+    height: 437px;
+}
+
+.img-proyecto-dos img {
+
+	width: 999px;
+	height: 437px;
+ 	margin-left: 0; 
+}
+
+.proyecto-segundo {
+	height: 1558px;
+}
+
+/* ////////////////////////////// tercero proyecto ///////////////////////////////////////////*/
+.img-proyecto-tres {
+
+	background: url(../img/proyecto/restaurante_noche.jpg) no-repeat center center;
+    background-size: cover;
+    height: 437px;
+}
+.img-proyecto-tres img {
+
+	width: 999px;
+	height: 437px;
+ 	margin-left: 0; 
+}
+.proyecto-tercero {
+	height: 1558px;
+}
+.pro-cuarto{
+	height: 1558px;
+}
+
+/* ////////////////////////////// cuarto proyecto ///////////////////////////////////////////*/
+
+.img-proyecto-cuatro {
+
+	background: url(../img/proyecto/lounge-Bares2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 437px;
+}
+
+.img-proyecto-cuatro img {
+
+	width: 999px;
+	height: 437px;
+ 	margin-left: 0; 
+}
 
 
 
 
 
+/* ////////////////////////////// Noticias ///////////////////////////////////////////*/
 
 
+.imagenes-noticias {
+	height: 500px;
+}
 
+ .imagenes-noticias .img-1 {
+ 	background: url(../img/noticias/ascenso-laboral.jpg);
+ 	background-size: cover;
+ }
 
+  .imagenes-noticias .img-2 {
+ 	background: url(../img/noticias/integrantes.jpg);
+ 	background-size: cover;
+ }
 
+ .imagenes-noticias .img-4 {
+ 	background: url(../img/noticias/proyectos-futuros.jpg);
+ 	background-size: cover;
+ }
 
-
-
-
-
-
+ .imagenes-noticias .img-5 {
+ 	background: url(../img/noticias/viajes.jpg);
+ 	background-size: cover;
+ }
