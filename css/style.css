@@ -623,8 +623,9 @@ article:hover .noti-a{
 	background-color: rgba(0,0,0,0.8);
 	padding: 8px 115px 8px 116px;
 }
-.jardin:hover .ver_producto{
+.ver_mas_detalles:hover a{
 	display: block;
+	border-bottom: #8AB8B4;
 }  
 .light{
 	margin-bottom: 60px;
@@ -740,10 +741,18 @@ article:hover .noti-a{
 .productos_relacionados{
 	max-width: 1000px;
 	background-color: #0A0A0C;
-	height: 195px;
+	height: 237px;
 	margin-left: 191px;
 	margin-top: 17px;
 	padding: 2px;
+	margin-bottom: 92px;
+}
+.productos_relacionados .image_down{
+	float: left;
+	margin-left: -481px;
+	margin-top: 105px;
+	width: 1.3%;
+	height: 8px;
 }
 .titulo_de_relacionados{
 	max-width: 1000px;
@@ -762,18 +771,40 @@ article:hover .noti-a{
 }
 .Tercera_categorias{
 	margin-left: 31px;
-	margin-top: 124px;
+	margin-top: 93px;
+	width: 19%;
 }
 .Tercera_categorias a{
 	color: #F7F0D5;
 }
-.muestra_de_relacionados{
-	float: right;
-	margin-left: 559px;
-	margin-top: -85px;
+.Tercera_categorias li a{
+	font-size: 2.5rem;
+	margin-left: -36px;
 }
-.image{
-	width: 23%;
+.Tercera_categorias:hover .segundo-sub-nav a{
+	display: block;
+}
+.segundo-sub-nav li a{
+	background-color: #D1E9ED;
+	color: #000;
+	display: none;
+	margin-bottom: 13px;
+	margin-left: -73px;
+	margin-top: 3px;
+	font-size: 1.7rem;
+	position: absolute;
+	height: 179px;
+	width: 10%;	
+}
+.segundo-sub-nav a:hover{
+	border-bottom: 1px solid #000;
+}
+.muestra_de_relacionados img{
+	float: right;
+	margin-top: -100px;
+	width: 18%;
+	height: 146px;
+	margin-right: 12px;
 }
 /* ====================== Proyectos========================= GINNA */
 
