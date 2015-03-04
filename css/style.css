@@ -148,7 +148,15 @@ a{
 
 }
 
-
+article .primer-title{
+	text-align: center; 
+	font-size: 3rem;
+	font-size: 30px;
+	color: #fff;
+	border: 1px solid #d1e9ed;
+	background-color: rgb(34,32,31); 
+	overflow: hidden;
+}
 
 
 .title-categoria {
@@ -293,7 +301,7 @@ article:hover .hr{
 .elegir-proyecto{
 	
 	width: 100%;
-	margin-left: 11px;
+	margin-left: -46px;
 }
 
 .proyecto-1{
@@ -318,12 +326,15 @@ article:hover .hr{
 .proyecto-1 h2{
 	font-size: 2rem;
 	font-size: 20px;
+	color: #8AB8B4;
 }
 
 .proyecto-1 p{
 	font-size: 1.5rem;
 	font-size: 15px;
-	width: 470px;
+	margin-left: -3px;
+	margin-top: -8px;
+	color: #797A7E;
 }
 
 .proyecto-2{
@@ -338,35 +349,36 @@ article:hover .hr{
 	background: url(../img/inicio/hospital-moncorvo.jpeg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
-	width: 450px;
+	width: 340px;
+	margin-left: -24px;
 	
 }
 
 .proyecto-2 h2{
 	font-size: 2rem;
 	font-size: 20px;
+	color: #8AB8B4;
+	margin-left: -21px;
 }
 
 .proyecto-2 p{
 	font-size: 1.5rem;
-	font-size: 15px;
-	width: 470px;
+	width: 348px;
+	margin-left: 1px;
+	margin-top: -6px;
+	color: #797A7E;
+	margin-left: -21px;
 }
 
 .proyecto-2 button{
 	margin-top: 42px;
-	margin-left: 177px;
+	margin-left: 60px;
 	background-color: #D1E9ED;
 	height: 44px;
 	width: 110px;
 	font-size: 1.6rem;
 	font-size: 16px;
 	border: 1px solid #91BFBB;
-}
-
-.proyecto-2 button:hover{
-	background-color: #000;
-	color:  #D1E9ED;
 }
 
 .proyecto-3{
@@ -383,24 +395,30 @@ article:hover .hr{
 	height: 292px;
 	width: 450px;
 	max-width: 100%;
-	
+	margin-left: -86px;
 }
 
 .proyecto-3 h2{
 	font-size: 2rem;
 	font-size: 20px;
+	margin-left: -80px;
+	color: #8AB8B4;
 }
 
 .proyecto-3 p{
 	font-size: 1.5rem;
 	font-size: 15px;
-	width: 470px;
+	width: 333px;
+	margin-left: -80px;
+	margin-top: -5px;
+	color: #797A7E;
 }
 
 
 /*         ///////////////////// Noticias ////////////////////////////       */
 
 .noticias{
+	background-color:#D7D4CC;
 	width: 100%;
 	height: 740px;
 	overflow: hidden;
@@ -419,21 +437,22 @@ article:hover .hr{
 	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
-	width: 450px;
+	width: 149%;
 	max-width: 100%;
-	
-
+	margin-left:-22px;
 }
 
 .noticia-1 h2{
 	font-size: 2rem;
-	font-size: 20px;
+	margin-left: 24px;
+	color: #22201F;
 }
 
 .noticia-1 p{
-	font-size: 1.5rem;
-	font-size: 15px;
-	width: 470px;
+	font-size: 1.3rem;
+	width: 99%;
+	margin-left: -20px;
+	color: #797A7E;
 }
 
 .noticia-2{
@@ -449,21 +468,21 @@ article:hover .hr{
 	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
-	width: 450px;
-	
-	
-	
+	width: 145%;
+	margin-left: -41px;
 }
 
 .noticia-2 h2{
 	font-size: 2rem;
-	font-size: 20px;
+	margin-left: 14px;
+	color: #22201F;
 }
 
 .noticia-2 p{
-	font-size: 1.5rem;
-	font-size: 15px;
-	width: 470px;
+	font-size: 1.3rem;
+	width: 141%;
+	margin-left: -38px;
+	color: #797A7E;
 }
 
 .noticia-2 button{
@@ -489,35 +508,32 @@ article:hover .hr{
 	background: url(../img/inicio/Gallowglassmontajeluces.jpg) no-repeat center center;
 	background-size: cover;
 	height: 292px;
-	width: 450px;
+	width: 149%;
 	max-width: 100%;
-	
-	
+	margin-left: -125px;
 }
 
 .noticia-3 h2{
 	font-size: 2rem;
-	font-size: 20px;
+	margin-left: -59px;
+	color: #22201F;
 }
 
 .noticia-3 p{
-	font-size: 1.5rem;
-	font-size: 15px;
-	width: 470px;
+	font-size: 1.3rem;
+	width: 99%;
+	margin-left: -122px;
+	color: #797A7E;
 }
 
 article .noti-a{
 	background-color: rgba(10,10,12,0.6);
 	height: 292px;
 	width: 100%;
-	float: left;
 	display: none;
 	color: #fff;
-	text-align: center;
-	font-size: 2rem;
-	font-size: 20px;
+	font-size: 1rem;
 	padding: 130px;
-	text-decoration: none;
 	
 }
 
@@ -618,8 +634,238 @@ article:hover .noti-a{
 .img-acerca-de:hover .contenedor-acerca-de{
 	display: block;
 }
+/*         ///////////////////// Acerca de ///////////////////////////  */ 
+.acerca-de {
+	width: 100%;
+	height: 676px;
+}
 
-/*-------------------------Productos-----------------------     KIMBERLY*/
+.contenedor-acerca {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.acerca-de h2 {
+	text-align: center;
+	font-size: 2rem;
+	font-size: 20px;
+	height: 23rem;
+	color: #8AB8B4;
+}
+
+.acerca-de p {
+	font-size: 15px;
+	height: 13rem;
+	float: left;
+	margin-left: 43px;
+	width: 93%;
+	margin-top: 26px;
+	color: #797A7E;
+
+
+}
+
+.img-acerca-de {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.gerentes {
+	text-align: center;
+	font-size: 1.5rem;
+	font-size: 15px;
+	height: 8rem;
+}
+
+
+.integrante1 {
+	background: url(../img/inicio/integrante1.jpg) no-repeat center center;
+	background-size: cover;
+    height: 200px;
+	width: 18%;
+	float: left;
+	margin-left: 84px;
+  
+}
+
+.integrante1 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 200px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+	padding: 1rem;
+}
+
+.integrante1:hover span{
+	display: block;
+}
+
+
+.integrante2 {
+	background: url(../img/inicio/integrante2.jpg) no-repeat center center;
+	background-size: cover;
+  	height: 200px;
+	width: 18%;
+	float: left;
+	margin-left: 27px;
+  
+}
+
+.integrante2 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 200px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+	padding: 1rem;
+}
+
+.integrante2:hover span{
+	display: block;
+}
+
+
+
+.integrante3 {
+	background: url(../img/inicio/jefe.jpg) no-repeat center center;
+	background-size: cover;
+  	height: 200px;
+  	width: 18%;
+  	float: left;
+  	margin-left: 27px;
+  
+}
+
+.integrante3 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 200px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+	padding: 1rem;	
+}
+
+.integrante3:hover span{
+	display: block;
+}
+
+
+
+.integrante4 {
+	background: url(../img/inicio/integrante4.jpg) no-repeat center center;
+	background-size: contain;
+ 	height: 200px;
+	width: 18%;
+ 	float: left;
+ 	margin-left: 27px;
+  
+}
+
+.integrante4 span { 
+	background-color: rgba(10,10,12,0.6);
+	height: 200px;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	padding: 81px;
+	display: none;
+	letter-spacing: 1.5px;
+	padding: 1rem;
+}
+
+.integrante4:hover span{
+	display: block;
+}
+
+
+.img-acerca-de .contenedor-acerca-de{
+	  width: 100%;
+	  height: 200px;
+	 background-color: rgba(10,10,12,0.6);
+   font-size: 20px;
+   text-align: center;
+   color: #fff;
+   display: none;
+   
+}
+
+.img-acerca-de .contenedor-acerca-de span {
+	float: left;
+ padding: 1rem;
+}
+
+.img-acerca-de:hover .contenedor-acerca-de{
+	display: block;
+}
+/*         ///////////////////// Contacto ///////////////////////////  */ 
+.contacto{
+	background-color:#D7D4CC;
+	padding-bottom: 62px;
+}
+.formulario{
+	margin: 75px 0px 2px 243px
+}
+.formulario input{
+	margin: 3px 0px 9px 29px;
+}
+.formulario label{
+	font-size: 1.5rem;
+}
+.formulario .e-mail{
+	margin-right: 9px;
+}
+.formulario .btn{
+	margin-left: 81px;
+	margin-top: 13px;
+}
+.contacto textarea{
+	margin-left: 82px;
+	margin-top: -14px;
+	width: 22%;
+	height: 91px;
+}
+.contactar_al_personal{
+	float: right;
+	margin-top: -245px;
+	margin-right: 283px;
+	font-size: 1.5rem;
+	margin-bottom: 59px;
+}
+.contactar_al_personal .contactar{
+	margin-left: 366px;
+	color: #797A7E;
+}
+.contactar_al_personal .redes_sociales{
+	margin-left: 393px;
+}
+.contactar_al_personal a{
+	margin-left: 3px;
+}
+.contactar_al_personal p{
+
+}
+/*Contacto no terminado falta los iconos y el fondo*/
+/*-------------------------Productos-------KIMBERLY*/
 /*option*/
 .categorias{
 	max-width: 1000px;
@@ -792,7 +1038,7 @@ article:hover .noti-a{
 .Segundas_categorias li{
 	color: #8AB8B4;
 	font-size: 1.8rem;
-	margin-left: -5px;
+	margin-left: -19px;
 	margin-top: -1px;
 }
 .Segundas_categorias li a{
@@ -809,43 +1055,295 @@ article:hover .noti-a{
 .Informacion_del_Producto h1{
 	margin-top: -49px;
 	float: right;
-	margin-right: 387px;
+	margin-right: 396px;
 	font-size: 2.5rem;
 	color: #8AB8B4;
 }
+
 .Informacion_del_Producto p{
 	font-size: 1.8rem;
 	width: 68%;
 	margin-top:91px;
 	margin-bottom: 71px;
-	margin-left: 455px;
+	margin-left: 446px;
 	color: #797A7E;
+}
+.Informacion_del_Producto hr{
+	max-width: 1000px;
 }
 .costo .boton_de_compra{
 	float: left;
 	margin-top: 54px;
 	margin-left: 4px;
 }
-.Informacion_del_Producto hr{
-	max-width: 1000px;
-}
+
 .imagen_principal{
-	width: 29.6%;
 	margin-left: 86px;
 	margin-bottom: 116px;
+	height: 355px;
+	width: 29.6%;
 }
+/*categoria jardin cambios*/
+.Informacion_del_Producto-bloom h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 659px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto-bloom p{
+	font-size: 1.8rem;
+	width: 48%;
+	margin-top:91px;
+	margin-bottom: 71px;
+	margin-left: 438px;
+	color: #797A7E;
+}
+.Informacion_del_Producto-tree h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 798px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto-tree p{
+	font-size: 1.8rem;
+	width: 48%;
+	margin-top:91px;
+	margin-bottom: 71px;
+	margin-left: 438px;
+	color: #797A7E;
+}
+/* Informacion de la categoria Casa*/
+.Informacion_del_Producto_casa h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 820px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto_casa p{
+	font-size: 1.8rem;
+	width: 48%;
+	margin-top:91px;
+	margin-bottom: 71px;
+	margin-left: 455px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_casa_designchen p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_casa_designchen h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 767px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.imagen_principal_designchen{
+	width: 33.6%;
+	margin-left: 86px;
+	margin-bottom: 116px;
+	height: 352px;
+}
+.imagen_principal_pendant{
+	width: 30.6%;
+	margin-left: 86px;
+	margin-bottom: 116px;
+	height: 352px;
+}
+.imagen_principal_tanuki{
+	width: 30.6%;
+	margin-left: 86px;
+	margin-bottom: 116px;
+	height: 351px;
+}
+/*Aqui termina la configuracion de categoria casa*/
 .imagenes_de_uso{
 	float: right;
 	margin-right: 53px;
 	max-width: 427px;
 }
+/*configuracion de imagen jardin*/
 .imagen_oco{
 	height: 115.5px;
 	width: 49.7%;
 	max-width: 213px;
 }
+
+/*aqui termina la configuracion de jardin*/
 .imagenes_en_pequeño{
 	margin-left: 481px;
+}
+/*Cambios apartes de la categoria cuarto*/
+.imagen_coral{
+	height: 129.5px;
+	width: 49.7%;
+	max-width: 213px;
+	margin-top: -14px;
+}
+/*cambias apartes de la categoria fiesta*/
+.imagen_fiesta{
+	height: 115.5px;
+	width: 49.7%;
+	max-width: 213px;
+}
+.Informacion_del_Producto_fiesta p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_fiesta h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 851px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto_fiesta_aluzza p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_fiesta_aluzza h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 830px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto_fiesta_votivas p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_fiesta_votivas h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 822px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto_fiesta_vinico p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_fiesta_vinico h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 833px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+/*categoria oficina cambios*/
+.Informacion_del_Producto_modern p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_modern h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 722px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto-Luz-de-vidrio p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto-Luz-de-vidrio h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 753px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto-felt p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto-felt h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 689px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto-pendant p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto-pendant h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 756px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+/*Categoria piscina cambios*/
+.Informacion_del_Producto_led p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_led h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 738px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
+}
+.Informacion_del_Producto_medusas p{
+	font-size: 1.8rem;
+	width: 53%;
+	margin-top: 91px;
+	margin-bottom: 71px;
+	margin-left: 444px;
+	color: #797A7E;
+}
+.Informacion_del_Producto_medusas h1{
+	margin-top: -49px;
+	float: right;
+	margin-right: 729px;
+	font-size: 2.5rem;
+	color: #8AB8B4;
 }
 /* 	Productos relacionados*/
 .productos_relacionados{
@@ -945,7 +1443,13 @@ article:hover .noti-a{
 }
 
 /*Lista de productos de piscina*/
-
+.productos .piscina{
+	float: right;
+	width: 22%;
+	height: 198px;
+	margin-top: -146px;
+	margin-right: 329px;
+}
 /*Lista de productos de cuarto*/
 .productos .cuarto{
 	float: right;
@@ -955,6 +1459,13 @@ article:hover .noti-a{
 	margin-right: 329px;
 }
 /*Lista de productos de oficina*/
+.productos .oficina{
+	float: right;
+	width: 22%;
+	height: 198px;
+	margin-top: -146px;
+	margin-right: 329px;
+}
 /* ====================== Proyectos========================= GINNA */
 
 /* ======================== imagenes proyecto =================*/
@@ -1469,14 +1980,13 @@ article:hover .noti-a{
 	height: 437px;
  	margin-left: 0; 
 }
-
-
-
-
-
 /* ////////////////////////////// Noticias ///////////////////////////////////////////*/
 
-
+.breadcrumb-noticias{
+	float: left;
+	margin-left: 32px;
+	margin-top: -41px;
+}
 .imagenes-noticias {
 	height: 500px;
 }
